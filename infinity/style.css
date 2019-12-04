@@ -1,9 +1,15 @@
+::-webkit-scrollbar {
+  width: 0.5px;
+}
 body {
   background-color: #123456;
   text-align: center;
 }
-::-webkit-scrollbar {
-  width: 1px;
+#bodyInfinity2 {
+  background-color: #13974e;
+}
+#bodyInfinity {
+  background-color: #2532e7;
 }
 #body01 {
   background-color: #5a15db;
@@ -21,7 +27,10 @@ body {
   background-color: #dae725;
 }
 h1 {
-  color: #e7ba25;
+  font-size: 37px;
+  background: -webkit-linear-gradient(#9ceaec, #ebaad2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .infinity {
   border: 4px solid black;
